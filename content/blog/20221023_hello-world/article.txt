@@ -1,0 +1,27 @@
+Title: This is my first Article
+
+----
+
+Published: 2022-10-23
+
+----
+
+Tags: design, photography, architecture, whatever
+
+----
+
+Intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta urna in dui sollicitudin, venenatis tincidunt mi accumsan.
+
+----
+
+Text:
+
+Hello World!
+
+- Item a
+- Item bbbbbb
+- Item 231
+
+----
+
+Uuid: cmfi4LyBAV6raFLG

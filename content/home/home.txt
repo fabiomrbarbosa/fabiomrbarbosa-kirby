@@ -1,1 +1,9 @@
-Title: Home
+Title: Welcome!
+
+----
+
+Intro: My name is Fábio and I’m a freelance web developer and copywriter. Keep reading or (link: /about text:learn more about me).
+
+----
+
+Uuid: ftnaz2DjeJJQ6oV1

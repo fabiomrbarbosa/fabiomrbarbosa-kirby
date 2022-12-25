@@ -1,0 +1,17 @@
+Title: Test draft
+
+----
+
+Text: Lorem ipsum dolor sit amet
+
+----
+
+Published: 2022-10-23 12:35:00
+
+----
+
+Tags: eurovision
+
+----
+
+Uuid: bGI3c3SrzGqL6zXy

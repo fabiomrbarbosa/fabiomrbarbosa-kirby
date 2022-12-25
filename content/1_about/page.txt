@@ -1,0 +1,39 @@
+Title: About
+
+----
+
+Publictitle: My name is Fábio M.R. Barbosa. Nice to meet you.
+
+----
+
+Intro: 
+
+----
+
+Text:
+
+## My background
+
+I am an islander, born in the Azores, currently hopping around the world, based nowhere in particular. 
+
+After dropping out of Journalism and Media Studies, I started my career as a podcaster and radio broadcaster. Five years later, I moved to mainland Portugal, and thus to the world of marketing and advertising, where I had the chance to start working as a freelance web developer, copy and scriptwriter, designer and English—Portuguese translator.
+
+For nearly a decade now, I've come to develop the necessary expertise to deliver turn-key creative solutions for television and digital media. Nowadays, I intend to focus on sustainable, higher awareness projects that target structural change.
+
+## Personal interests
+
+In my spare time, I am an amateur researcher and author in the fields of mythology and spirituality, interested in the intersection of Hermeticism and earth-based mystery traditions. I have published several articles in like-minded media, in which I expound on our urgent need for a non-dualistic and empathic way of living.
+
+Besides that, I am also a fountain pen nerd, an incorrigible Eurovision fan and a budding polyglot, currently working my way through German tongue-twisters and the Swedish syntax.
+
+## Colophon
+
+This website was built with HTML, CSS/(link: https://sass-lang.com text: Sass) and a bit of JavaScript. Any design token-led utility classes were generated using (link: https://github.com/Andy-set-studio/gorko text: Andy Bell's Gorko package).
+
+All content is managed using the amazing (link: https://getkirby.com text: Kirby CMS) — which allows me to benefit from all the battle-tested commodities of a PHP-based stack, along with the peace of mind of storing my content in flat (largely Markdown-compatible) files.
+
+The type is set with the Wotfard font family, designed by the (link: https://www.atipofoundry.com/fonts/wotfard text: Atipo Foundry).
+
+----
+
+Uuid: trn68F62Ak8EUWvw

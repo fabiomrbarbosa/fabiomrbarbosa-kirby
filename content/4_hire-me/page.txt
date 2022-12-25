@@ -1,0 +1,67 @@
+Title: Hire Me
+
+----
+
+Publictitle: I’m a freelance front end developer and copywriter.
+
+----
+
+Intro: 
+
+----
+
+Text:
+
+## What I do
+
+For over 15 years I’ve been working with brands and people with a transformative vision to help them tell their story in their most authentic voice, and design immersive, accessible and engaging experiences.
+
+I approach my work as a craft: I truly believe that a brand is only as strong as its set of values, that every message needs a purpose and that form definitely must follow function.
+
+## My values
+
+I’ve worked with clients in various sectors and markets, but my current focus is on sustainable, higher awareness projects that target structural change.
+
+I hold myself to high standards, and thus I like to value my and your time. We’re more likely to be a match if your team or brand is agile while working from a base of solid research and strategy. I also prefer to work remotely, and have been doing so for nearly a decade.
+
+If all this sounds good to you, let’s start a conversation. Just email me at: hello[at]fabiomrbarbosa[dot]com.
+
+## Skills
+
+- Brand discovery + strategy
+- Copywriting
+- Content creation
+- Visual identity
+- UI/UX Design
+- HTML/CSS/Javascript/PHP
+- E-Commerce
+- Web Accessibility
+
+## Select clients + brands
+
+- Ageas
+- BMW
+- Coca-Cola
+- CNN Portugal
+- easyJet
+- EDP
+- Endesa
+- Ferrero
+- Galp
+- Jogos Santa Casa
+- MEO
+- Nissan
+- NOS
+- Re/Max
+- Renault
+- Santander
+- Sonae
+- Turismo de Portugal
+- SIC
+- TVI
+- Tymeshift
+- Unilever
+
+----
+
+Uuid: OFcJQuAuALxRuDbO

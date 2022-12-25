@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "server": "php -S localhost:8000 kirby/router.php",
+    "update": "cd kirby && git checkout main && git pull",
+    "watch": "sass --source-map -w ./assets/css/src/main.scss ./assets/css/dist/styles.css",
+    "build": "sass --style=compressed ./assets/css/src/main.scss ./assets/css/dist/styles.css"
+  },
+  "devDependencies": {
+    "gorko": "^0.9.1",
+    "sass": "^1.56.1"
+  }
+}

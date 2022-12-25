@@ -1,0 +1,6 @@
+type: pages
+label: Articles
+info: "{{ page.published.toDate('d.m.Y') }}"
+template: article
+empty: No articles yet
+sortBy: published desc

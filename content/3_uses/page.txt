@@ -1,0 +1,52 @@
+Title: Uses
+
+----
+
+Publictitle: Here's a sneak peek into my favourite tools, both digital and analog.
+
+----
+
+Intro: 
+
+----
+
+Text:
+
+## Software
+
+- (link: https://www.obsidian.md text:Obsidian) — my Markdown-based second brain
+- Apple Reminders — where I store any time-sensitive deadlines, which my first brain really appreciates
+- (link: https://code.visualstudio.com text:Visual Studio Code) — my main code editor (even though I've recently started taking an interest on (link: https://www.vim.org text: Vim))
+- (link: https://localwp.com text: Local) — for whenever I need to work for a client who asks for a WordPress website, without having to worry about maintaining a LAMP environment in my machine. 
+- (link: https://iterm2.com text: iTerm2) — compulsory for anyone who needs a functional terminal on macOS, frankly
+- (link: https://brew.sh text: Homebrew) — even though not all of the software I use plays nicely with a package manager, it's still a kind of workflow I became very fond of since back when I was using Linux as my main operating system. Extra points for being able to restore most software I need from a single command.
+- (link: https://ia.net/writer text: iA Writer) — where I actually do all of my solid writing if I need something more stripped down than Obsidian. I only really mess with Microsoft Office if other people insist, to paste and send the final version of any scripts and pitches. 
+- (link: https://rectangleapp.com text: Rectangle) — because the time is long overdue for some sort of tiling window manager on macOS. 
+
+## Hardware
+
+- (link: https://www.apple.com/de/macbook-pro-13/ text: MacBook Pro M1 (2020)) — The hardware might be overpriced, but the best thing about an Apple computer has always been the operating system.
+- Samsung Smart M5 32'' — One day I might finally embrace the world of 4K. No matter how much screen real estate there is, one could always get more.
+- Cherry G80-3000N RGB TKL with Cherry MX Clear switches — A reliable, no-nonsense mechanical keyboard in my favourite form factor. I also happen to have this same model with silent Red switches, just to change things up from time to time.
+- Logitech MX Master 3 — Likely not my endgame concerning ergonomics, but at least it's convenient and comfortable enough. Often I need to have some sort of padding underneath my wrist to prevent pain, though.
+- (link: https://en-de.sennheiser.com/wireless-headphones-bluetooth-hd-4-40-bt text: Sennheiser HD 4.40 BT Headphones) — I might eventually upgrade to a model with actual noise cancelling, but as far as over-ears go, these are quite decent.
+- (link: https://www.apple.com/airpods-2nd-generation/ text: AirPods (2nd generation)) — Just because I am fully immersed into the Apple ecosystem. For whenever I need to somehow stay alert to my surroundings.
+
+## Analog
+
+I am a fountain pen nerd and my collection is larger than I dare to admit. But there are a few workhorses that I keep more regularly in rotation than others:
+
+- Lamy 2000 (Fine nib)
+- Pilot Custom Heritage 91 (Soft Fine nib)
+- Pilot Custom 823 (Medium nib)
+- Platinum Century #3776 (Medium nib)
+
+In case the circumstances call for something other than a fountain pen, I'm happy to use any of the following:
+
+- Pentel Energel Needle Tip 0.7mm (rollerball)
+- Parker Jotter (ballpoint)
+- Uni Kuru Toga Advance (mechanical pencil)
+
+----
+
+Uuid: dN129MZxIFF1IDqv

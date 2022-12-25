@@ -1,0 +1,17 @@
+.toc {
+  &__content {
+    font-size: var(--size-400);
+    h2 {
+      font-size: var(--size-400);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    ol li {
+      --flow-space: 0.75rem;
+    }
+    @media screen and (min-width: 40rem) {
+      position: sticky;
+      top: 8rem;
+    }
+  }
+}
