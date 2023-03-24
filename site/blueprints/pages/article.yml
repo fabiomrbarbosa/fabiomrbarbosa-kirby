@@ -38,7 +38,19 @@ columns:
         fields:
           published:
             type: date
-            time: true
+            time: false
+            default: now
+          lastModified:
+            label: Last Modified
+            type: date
+            time: false
             default: now
           tags:
             type: tags
+          noteStatus:
+            label: Note Status
+            type: select
+            options:
+              seedling: Seedling
+              budding: Budding
+              Evernote: Evernote

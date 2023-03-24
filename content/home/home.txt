@@ -1,8 +1,9 @@
-Title: Welcome!
+Title: 
+Content, Copy + Code.
 
 ----
 
-Intro: My name is Fábio and I’m a freelance web developer and copywriter. Keep reading or (link: /about text:learn more about me).
+Intro: My name is Fábio M.R. Barbosa and I’m a freelance web developer and copywriter. Keep reading and (link: /about text:learn more about me).
 
 ----
 

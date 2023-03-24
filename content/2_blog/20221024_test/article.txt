@@ -18,11 +18,27 @@ Cras facilisis ac dolor quis consectetur. Ut ac accumsan lectus, eu porttitor ne
 
 ----
 
-Published: 2022-10-24 00:00:00
+Published: 2022-10-24
+
+----
+
+Lastmodified: 2022-12-19
 
 ----
 
 Tags: design, photography, architecture, eurovision
+
+----
+
+Notestatus: seedling
+
+----
+
+Status: seedling
+
+----
+
+Modified: 2022-12-24
 
 ----
 

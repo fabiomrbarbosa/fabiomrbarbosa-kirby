@@ -1,6 +1,12 @@
 // Color Scheme
 
 $gorko-colors: (
+  "rainbow": (
+    linear-gradient(450deg, #ed2240, rgba(96, 97, 151, 0) 70%),
+    linear-gradient(135deg, #396eea 30%, rgba(57, 110, 234, 0) 80%),
+    linear-gradient(225deg, #c2c700 5%, rgba(194, 199, 0, 0) 80%),
+    linear-gradient(0deg, #f6009c, rgba(252, 0, 161, 0) 71%),
+  ),
   "black": #000,
   "gray-dark": #231f20,
   "gray": #72686b,
@@ -11,6 +17,7 @@ $gorko-colors: (
   "dark-purple": #101023,
   "purple": #2a2859,
   "lilac": #8b80f9,
+  "blue": #5181e2,
   "coral": #f4688b,
   "red": #ce4345,
   "bittersweet": #ff686b,
@@ -20,15 +27,17 @@ $gorko-colors: (
 // Light and Dark Mode
 
 $light-colors: (
+  "rainbow": map-get($gorko-colors, "rainbow"),
   "header": rgba(map-get($gorko-colors, "offwhite"), 0.25),
   "text": map-get($gorko-colors, "gray-dark"),
   "bg": map-get($gorko-colors, "offwhite"),
-  "border": map-get($gorko-colors, "gray-light"),
-  "link": map-get($gorko-colors, "red"),
+  "border": map-get($gorko-colors, "beige"),
+  "link": map-get($gorko-colors, "blue"),
   "link-hover": map-get($gorko-colors, "black"),
 );
 
 $dark-colors: (
+  "rainbow": map-get($gorko-colors, "rainbow"),
   "header": rgba(map-get($gorko-colors, "gray-dark"), 0.25),
   "text": map-get($gorko-colors, "beige"),
   "bg": map-get($gorko-colors, "gray-dark"),
@@ -195,6 +204,17 @@ $gorko-config: (
     ),
     "output": "responsive",
     "property": "width",
+  ),
+  "flex": (
+    "items": (
+      "full": "100%",
+      "half": calc((100% / 2) - (((2 - 1) / 2) * var(--flex-gap))),
+      "quarter": calc((100% / 4) - (((4 - 1) / 4) * var(--flex-gap))),
+      "third": calc((100% / 3) - (((3 - 1) / 3) * var(--flex-gap))),
+      "two-thirds": calc(2 * ((100% / 3) - (((3 - 1) / 3) * var(--flex-gap)))),
+    ),
+    "output": "responsive",
+    "property": "flex-basis",
   ),
   "breakpoints": (
     "sm": "(min-width: 36em)",

@@ -30,7 +30,9 @@
 }
 
 .user-toggle {
-  margin-left: auto;
+  @include media-query("md") {
+    margin-left: auto;
+  }
 }
 
 .toggle-button {
@@ -50,7 +52,6 @@
   background: var(--button-icon);
   width: 1.2em;
   height: 1.2em;
-  margin: 0 0 0 0.5em;
   filter: var(--button-icon-filter);
   transform: translateY(1px); /* Optical adjustment */
   transition: filter 500ms ease-in-out;

@@ -1,70 +1,64 @@
 .home-hero {
+  overflow: hidden;
+  position: relative;
+
   &__inner {
-    position: relative;
+    min-height: 70vh;
+  }
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
     display: flex;
     align-items: center;
-    text-align: center;
-    min-height: 90vh;
     flex-direction: column;
     justify-content: center;
   }
 
-  &__doorway {
-    position: absolute;
-    z-index: -1;
-    width: 50vw;
-    width: clamp(16rem, 20vw, 20vw);
-    height: clamp(22rem, 29vw, 29vw);
+  &__gradient {
+    --size: 60vh;
+    --speed: 20s;
+    --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
-    opacity: 1;
-    transform: perspective(1000px);
-    transform-origin: 50% 100%;
-
-    border-top-left-radius: clamp(16rem, 20vw, 22vw);
-    border-top-right-radius: clamp(16rem, 20vw, 22vw);
-
-    overflow: hidden;
-
-    &:before {
-      content: "";
-      position: absolute;
-      width: 170%;
-      height: 120%;
-      top: -5%;
-      left: -35%;
-      transform-origin: center;
-      z-index: -1;
-      background-image: linear-gradient(
-          450deg,
-          #ed2240,
-          rgba(96, 97, 151, 0) 70%
-        ),
-        linear-gradient(135deg, #396eea 30%, rgba(57, 110, 234, 0) 80%),
-        linear-gradient(225deg, #c2c700 5%, rgba(194, 199, 0, 0) 80%),
-        linear-gradient(0deg, #f6009c, rgba(252, 0, 161, 0) 71%);
-      animation: spin 15s linear infinite;
-    }
-
-    &:after {
-      content: "";
-      position: absolute;
-      background-color: var(--color-bg);
-      top: 4px;
-      bottom: 4px;
-      left: 4px;
-      right: 4px;
-      border-top-left-radius: clamp(16rem, 20vw, 22vw);
-      border-top-right-radius: clamp(16rem, 20vw, 22vw);
-    }
+    filter: blur(calc(var(--size) / 5));
+    background-image: linear-gradient(
+      hsla(25, 82%, 57%, 0.8),
+      hsla(349, 82%, 57%, 0.8)
+    );
+    animation: rotate var(--speed) var(--easing) infinite forwards;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    transition: all 2s linear;
   }
 
-  @keyframes spin {
+  @keyframes rotate {
     0% {
-      transform: rotate(0);
+      transform: rotate(0deg) translate3d(0%, 0%, 0);
+      width: calc(var(--size) * 1.5);
+      height: var(--size);
     }
-
+    25% {
+      transform: rotate(90deg) translate3d(10%, -25%, 0);
+      width: var(--size);
+      height: calc(var(--size) * 1.5);
+    }
+    50% {
+      transform: rotate(180deg) translate3d(20%, 10%, 0);
+      width: calc(var(--size) * 1.5);
+      height: var(--size);
+    }
+    75% {
+      transform: rotate(270deg) translate3d(-10%, 25%, 0);
+      width: var(--size);
+      height: calc(var(--size) * 1.5);
+    }
     100% {
-      transform: rotate(360deg);
+      transform: rotate(360deg) translate3d(0%, 0%, 0);
+      width: calc(var(--size) * 1.5);
+      height: var(--size);
     }
   }
 

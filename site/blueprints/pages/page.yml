@@ -5,6 +5,7 @@ columns:
     width: 2/3
     fields:
       publicTitle:
+        label: Public Title
         type: text
       intro:
         type: textarea

@@ -1,5 +1,5 @@
 <?php if ($headlines->count() >= 3) : ?>
-	<aside class="toc gap-bottom-900">
+	<aside class="toc gap-bottom-900 <?= $classes ?>">
 		<nav class="toc__content flow">
 
 			<h2>Table of Contents</h2>

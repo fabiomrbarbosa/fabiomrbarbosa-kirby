@@ -45,6 +45,23 @@
 }
 
 .article {
+  &__meta {
+    display: flex;
+    column-gap: 1.5ch;
+
+    > time,
+    > span {
+      display: flex;
+      align-items: center;
+      column-gap: 1ch;
+    }
+    svg {
+      height: var(--size-400);
+      width: var(--size-400);
+      fill: var(--color-text);
+    }
+  }
+
   &__nav {
     &-links {
       margin-top: 0;
@@ -54,10 +71,7 @@
 
 .page__title {
   display: inline-block;
-  background-image: linear-gradient(450deg, #ed2240, rgba(96, 97, 151, 0) 70%),
-    linear-gradient(135deg, #396eea 30%, rgba(57, 110, 234, 0) 80%),
-    linear-gradient(225deg, #c2c700 5%, rgba(194, 199, 0, 0) 80%),
-    linear-gradient(0deg, #f6009c, rgba(252, 0, 161, 0) 71%);
+  background-image: var(--color-rainbow);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

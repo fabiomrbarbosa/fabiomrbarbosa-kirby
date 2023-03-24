@@ -2,10 +2,7 @@
   &__title {
     display: inline-block;
     line-height: 1.2 !important;
-    background-image: linear-gradient(450deg, #ed2240, rgba(96, 97, 151, 0) 70%),
-      linear-gradient(135deg, #396eea 30%, rgba(57, 110, 234, 0) 80%),
-      linear-gradient(225deg, #c2c700 5%, rgba(194, 199, 0, 0) 80%),
-      linear-gradient(0deg, #f6009c, rgba(252, 0, 161, 0) 71%);
+    background-image: var(--color-rainbow);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -17,7 +14,7 @@
     border-bottom: 1px dashed var(--color-border);
   }
 
-  @media screen and (min-width: 40rem) {
+  @include media-query("md") {
     &__intro {
       margin-top: 0;
     }

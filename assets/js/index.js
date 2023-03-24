@@ -1,5 +1,6 @@
 document.documentElement.classList.remove("no-js");
 
+// Dark Mode
 const STORAGE_KEY = "theme";
 const COLOR_MODE_KEY = "--color-mode";
 
@@ -65,3 +66,19 @@ modeToggleButton.addEventListener("click", (evt) => {
 });
 
 applySetting();
+
+// Menu Toggle
+const menu = document.getElementById("menu");
+const toggle = document.getElementById("menu-toggle");
+const pressedClass = "menu-toggle--is-pressed";
+const visibleClass = "site-menu--is-visible";
+
+toggle.addEventListener("click", function () {
+  if (menu.classList.contains(visibleClass)) {
+    toggle.classList.remove(pressedClass);
+    menu.classList.remove(visibleClass);
+  } else {
+    toggle.classList.add(pressedClass);
+    menu.classList.add(visibleClass);
+  }
+});
