@@ -1,0 +1,9 @@
+Title: Blog
+
+----
+
+Text: Personal thoughts about life and the universe.
+
+----
+
+Uuid: 9wdiIZA3Ztavc8ri
